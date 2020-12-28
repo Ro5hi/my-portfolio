@@ -7,14 +7,14 @@ import { Link } from 'react-router-dom'
             return (
                 <div className="relative inset-y-0 left-0">
                 <IntroHeader />
-                    <div className="text-left text-white">
+                    <div className="text-left text-2xl text-white">
                         <p>
                         My name is <strong>Shirlen</strong>!<br />
-                        I’m a full stack engineer<br />
+                        I’m a full stack developer<br />
                         based in Colorado.
                         </p>
                     </div>
-                    <div className="text-left text-white">
+                    <div className="text-left text-xs text-white">
                         <Link to ='/about'>Read more about me</Link>
                     </div>
                 </div>
