@@ -5,7 +5,7 @@ import React, { Component } from 'react'
             return (
                 <div className="relative inset-y-0 left-0 select-none">
                     <div className="header1">
-                        <div className="animate-pulse text-left text-8xl text-blue-500 font-bold">
+                        <div className="animate-pulse text-left text-8xl text-white font-bold">
                             <p class="tracking-wider">
                                 HEY HI <br />
                                 HELLO
@@ -13,7 +13,7 @@ import React, { Component } from 'react'
                         </div>
                     </div>
                     <div className="header2">
-                        <div className="animate-pulse text-left text-8xl text-pink-400 font-bold">
+                        <div className="animate-pulse text-left text-8xl text-white font-bold">
                             <p class="tracking-wider">
                                 HEY HI <br />
                                 HELLO
