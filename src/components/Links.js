@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
 
     class Links extends Component {
         render() {
             return (
-                <div className="sm text-center text-white font-light text-lg white justify-between">
-                    <Link to ='https://www.linkedin.com/in/shirlend'>LinkedIn</Link>{"      "}
-                    <Link to ='https://'>Resume</Link>{"      "}
-                    <Link to ='https://www.lendeta.medium.com'>Medium</Link>{"      "}
-                    <Link to ='https://www.github.com/Ro5hi'>GitHub</Link>{"      "}
-            </div>
+                <div className="sm text-center text-white font-light text-2xl justify-between">
+                    <p class="tracking-widest">
+                        <a href='https://www.linkedin.com/in/shirlend'>LinkedIn</a>{"      "}
+                        <a href ='https://'>Resume</a>{"      "}
+                        <a href ='https://www.lendeta.medium.com'>Medium</a>{"      "}
+                        <a href ='https://www.github.com/Ro5hi'>GitHub</a>{"      "}
+                    </p>
+                </div>
             )
         }
     }
