@@ -27,4 +27,4 @@ Completed:
 
 Currently it looks like this:
 
-![ImagePreview](https://imgur.com/YAave2q.gif)
+![ImagePreview](https://imgur.com/fo4HkfT.gif)
