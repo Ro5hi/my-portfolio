@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Intro from './Intro'
 import Links from './Links'
-import Contact from './Contact'
+import Footer from './Footer'
 
     class Home extends Component {
         render() {
@@ -9,7 +9,7 @@ import Contact from './Contact'
                 <div className="bg-black sm text-white text-center font-light ">
                     <Intro />
                     <Links />
-                    <Contact />
+                    <Footer />
                 </div>
 
             )
