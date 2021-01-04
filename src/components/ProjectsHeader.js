@@ -4,14 +4,12 @@ import React, { Component } from 'react'
         render() {
             return (
                 <div className="relative inset-y-0 left-0 select-none">
-                    <div className="header1">
-                        <div className="text-center text-4xl text-white font-bold">
-                            <p class="tracking-wider">
-                                PROJECTS <br />
-                                PROJECTS <br />
-                                PROJECTS <br />
-                            </p>
-                        </div>
+                    <div className="text-center text-6xl text-white font-bold">
+                        <p class="italic tracking-wider">
+                            PROJECTS <br />
+                            PROJECTS <br />
+                            PROJECTS <br />
+                        </p>
                     </div>
                 </div>
             )
