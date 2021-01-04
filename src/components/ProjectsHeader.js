@@ -6,8 +6,7 @@ import React, { Component } from 'react'
                 <div className="relative inset-y-0 left-0 select-none">
                     <div className="text-center text-6xl text-white font-bold">
                         <p class="italic tracking-wider">
-                            PROJECTS <br />
-                            PROJECTS <br />
+                            FEATURED <br />
                             PROJECTS <br />
                         </p>
                     </div>
