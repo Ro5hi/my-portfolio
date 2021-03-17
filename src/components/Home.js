@@ -9,8 +9,8 @@ import Projects from './Projects'
             return (
                 <div className="bg-black sm text-white text-center font-light ">
                     <Intro />
-                    <ProjectsHeader />
-                    <Projects />
+                        <ProjectsHeader />
+                        <Projects />
                     <Footer />
                 </div>
 

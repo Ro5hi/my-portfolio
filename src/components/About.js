@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom'
             return (
                 <div className="relative inset-y-0 left-0">
                     <div className="text-left text-white">
-                        <strong><h2>Jan 2021</h2></strong>
+                        <strong><h2>As of 2021,</h2></strong>
                         <br/>
                         <p>
-                        Available for full-time remote jobs only.
+                        Available for full-time remote work.
                         </p>
                         <br/>
                         <br/>
@@ -18,11 +18,10 @@ import { Link } from 'react-router-dom'
                         <p>
                         A business graduate who later transitioned into a career in<br/>
                         full stack development after studying Software Engineering<br/>
-                        at Flatiron School.<br/>
+                        at Flatiron School. Always curious and ready to learn.<br/>
                         <br/>
                         Loves building friendly experiences to help local communities.<br/>
                         Enjoys bringing creative concepts to life with front-end development.<br/>
-                        Strong advocate for diversity and inclusion in the tech industry.<br/>
                         Does photography and creating 3D models on the weekends.<br/>
                         </p>
                     </div>
