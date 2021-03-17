@@ -1,10 +1,23 @@
-import React, { Component } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
+import About from './About'
 import IntroHeader from './IntroHeader'
 import { Link } from 'react-router-dom'
 
-    class Intro extends Component {
-        render() {
-            return (
+
+    const Intro = () => {
+
+        const poppedUp = useRef()
+        
+        const [isUp, setUp] = useState(false)
+        const handleClick = event => {
+            if (poppedUp.current.contains(e.target)) {
+                return
+            }
+            setUp(false)
+        }
+            
+
+        return (
                 <div className="relative inset-y-0 left-0">
                 <IntroHeader />
                 <br/><br/>
@@ -17,12 +30,17 @@ import { Link } from 'react-router-dom'
                     </div>
                     <div className="text-left text-s tracking-wide text-white">
                         <p class="underline">
-                            <Link to ='/about'>Read more about me</Link>
+                            <button onClick={() => setUp(!isUp)}>Read More</button>
+                            {isUp ? (
+                                <div>
+                                    up
+                                </div>
+                            ) : null }
+                            
                         </p>
                     </div>
                 </div>
             )
         }
-    } 
 
     export default Intro;
