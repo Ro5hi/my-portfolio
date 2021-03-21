@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react'
-import About from './About'
 import IntroHeader from './IntroHeader'
 import { Link } from 'react-router-dom'
 
@@ -10,7 +9,7 @@ import { Link } from 'react-router-dom'
         
         const [isUp, setUp] = useState(false)
         const handleClick = event => {
-            if (poppedUp.current.contains(e.target)) {
+            if (poppedUp.current.contains(event.target)) {
                 return
             }
             setUp(false)
@@ -33,7 +32,13 @@ import { Link } from 'react-router-dom'
                             <button onClick={() => setUp(!isUp)}>Read More</button>
                             {isUp ? (
                                 <div>
-                                    up
+                                    A business graduate who later transitioned into a career in<br/>
+                                    full stack development after studying Software Engineering<br/>
+                                    at Flatiron School. Always curious and ready to learn.<br/>
+                                    <br/>
+                                    Loves building friendly experiences to help local communities.<br/>
+                                    Enjoys bringing creative concepts to life with front-end development.<br/>
+                                    Does photography and creating 3D models on the weekends.<br/>
                                 </div>
                             ) : null }
                             
