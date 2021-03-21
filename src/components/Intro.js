@@ -1,23 +1,18 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState } from 'react'
 import IntroHeader from './IntroHeader'
-import Modal from './Modal'
-import { Link } from 'react-router-dom'
+import Modal from './Modal.js'
 
 
     const Intro = () => {
 
-        const poppedUp = useRef()
-        
-        const [isUp, setUp] = useState(false)
-        const handleClick = event => {
-            if (poppedUp.current.contains(event.target)) {
-                return
-            }
-            setUp(false)
+        const [showModal, setModal] = useState(false)
+
+        const openModal = () => {
+            setModal(prev => !prev)
         }
 
         return (
-                <div className="relative inset-y-0 left-0">
+                <>
                 <IntroHeader />
                 <br/><br/>
                     <div className="text-left tracking-widest text-2xl text-white">
@@ -26,9 +21,10 @@ import { Link } from 'react-router-dom'
                         I’m a full stack developer<br />
                         based in Colorado.
                         </p>
+                        <button onClick={openModal}>Read more</button>
                     </div>
-                    <Modal />
-                </div>
+                        <Modal showModal={showModal} setModal={setModal} />
+                </>
             )
         }
 

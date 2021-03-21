@@ -12,14 +12,6 @@ import React, { Component } from 'react'
                             </p>
                         </div>
                     </div>
-                    <div className="header2">
-                        <div className="animate-pulse text-left text-8xl text-white font-bold">
-                            <p class="tracking-wider">
-                                HEY HI <br />
-                                HELLO
-                            </p>
-                        </div>
-                    </div>
                 </div>
             )
         }

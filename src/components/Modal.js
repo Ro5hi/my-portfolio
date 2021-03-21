@@ -1,65 +1,66 @@
-import React, { useState, useEffect, useRef } from 'react'
-import { useSpring, animted } from 'react-spring'
+import React, { useRef, useCallback, useEffect } from 'react'
+import { useSpring, animated } from 'react-spring'
 
-const Modal = () => {
+const Modal = ({ showModal, setModal }) => {
 
-    const poppedUp = useRef()
-    
-    const [isUp, setUp] = useState(false)
+    const modalRef = useRef()
 
-    const handleClick = event => {
-        if (poppedUp.current.contains(event.target)) {
-            return
+    const closeModal = event => {
+        if (modalRef.current === event.target) {
+            setModal(false)
         }
-        setUp(false)
     }
 
-    const ModalContent = () => {
-        <div className="text-left text-s tracking-wide text-white">
-            <button onClick={() => setUp(!isUp)}>Read More</button>
-            {isUp ? (
-                <div>
-                    <p>
-                    A business graduate who later transitioned into a career in<br/>
-                    full stack development after studying Software Engineering<br/>
-                    at Flatiron School. Always curious and ready to learn.<br/>
-                    <br/>
-                    Loves building friendly experiences to help local communities.<br/>
-                    Enjoys bringing creative concepts to life with front-end development.<br/>
-                    Does photography and creating 3D models on the weekends.<br/>
-                    </p>
-                </div>
-            ) : null }
-        </div>     
-    }
+    const animation = useSpring({
+        config: {
+          duration: 600
+        },
+        opacity: showModal ? 1 : 0,
+        transform: showModal ? `translateY(0%)` : `translateY(-100%)`
+    });
 
-    const CloseFunction = e => {
-            if (poppedUp.current === e.target) {
-                setUp(false)
+    const onKeyPress = useCallback(
+        event => {
+            if (event.key === 'Escape' && showModal) {
+                setModal(false)
             }
-        }
-
-    const CloseButton = () => {
-        <div className="absolute cursor-pointer p-0 items-end text-2xl">
-            <div className="text 2xl" f={CloseFunction}>X</div>
-        </div> 
-    }
-
-   
-
-    const ModalWrapper = () => {
-        <div className="bg-white relative tracking-widest flex items-center">
-            <CloseButton / >
-            <ModalContent />
-        </div>
-    }
+        },
+        [setModal, showModal]
+    )
+    useEffect(
+        () => {
+            document.addEventListener('keydown', onKeyPress)
+            return () => document.removeEventListener('keydown', onKeyPress)
+        },
+        [onKeyPress]
+    )
 
     return (
-        <div>
-            
-        </div>
+        <>
+            {showModal ? (
+                <div className="bg-black sticky justify-center items-center" onClick={closeModal} ref={modalRef}>
+                    <animated.div style={animation}>
+                    <div className="relative " showModal={showModal}>
+                        <div className="tracking-widest text-left text-s text-white">
+                            <p>
+                            A business graduate who later transitioned into a career in<br/>
+                            full stack development after studying Software Engineering<br/>
+                            at Flatiron School. Always curious and ready to learn.<br/>
+                            <br/>
+                            Enjoys bringing creative concepts to life with front-end development.<br/>
+                            Does photography and creating 3D models on the weekends.<br/>
+                            </p>
+                        </div>
+                        <div className="fixed cursor-pointer p-0 items-end text-2xl"
+                            aria-label='Exit'
+                            onClick={() => setModal(prev => !prev)}
+                        />
+                    </div>
+                    </animated.div>
+                </div>
+            ) : null}
+        </>
     )
-}
+};
 
-
-export default Modal;
+export default Modal
