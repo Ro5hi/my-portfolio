@@ -6,6 +6,7 @@ export default class Projects extends Component {
         return (
             <div className="overflow-auto">
                 <ProjectsHeader />
+                <br/><br/><br/>
                 <section class="justify-center">
                     <p class="tracking-widest">
                         <img class="mx-auto" src="https://github.com/Ro5hi/subtrack-js/raw/main/front/screenshots/l.PNG" alt="screenshot"></img>

@@ -6,9 +6,11 @@ import Projects from './Projects'
     class Home extends Component {
         render() {
             return (
-                <div className="flex-initial flex-col sm text-white text-center font-light ">
+                <div className="flex-initial flex-col p-8 sm text-white text-center font-light ">
                     <Intro />
+                        <br/><br/><br/>
                         <Projects />
+                        <br/><br/><br/>
                     <Footer />
                 </div>
             )
