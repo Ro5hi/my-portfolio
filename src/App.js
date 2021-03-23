@@ -6,7 +6,7 @@ const Home = React.lazy(() => import('./components/Home'))
 
 function App() {
   return (
-    <Suspense fallback={"..."} >
+    <Suspense fallback={""}>
     <BrowserRouter>
       <Switch>
         <Route component={Home} path='/' exact />
