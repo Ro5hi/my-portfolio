@@ -1,4 +1,3 @@
-import React, { useEffect, useRef } from 'react'
 import Intro from './Intro'
 import Footer from './Footer'
 import Projects from './Projects'
