@@ -19,7 +19,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-spinners": "^0.10.6",
-    "react-spring": "^9.0.0-rc.3",
+    "react-spring": "^9.0.0",
     "tailwind": "^4.0.0",
     "tailwindcss": "^2.0.1",
     "web-vitals": "^0.2.4"
