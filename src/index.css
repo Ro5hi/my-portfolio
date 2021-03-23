@@ -17,6 +17,8 @@ img{
 }
 
 button { 
+  padding: 0;
+  outline: none;
   text-decoration: none;
   border: none;
 }

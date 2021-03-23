@@ -18,10 +18,10 @@ import Modal from './Modal.js'
                     <div className="text-left tracking-widest text-2xl text-white">
                         <p>
                         My name is <strong>Shirlen</strong>!<br />
-                        I’m a full stack developer<br />
+                        I’m a full stack engineer<br />
                         based in Colorado.
                         </p>
-                        <button onClick={openModal}>Read more</button>
+                        <button onClick={openModal}>...</button>
                     </div>
                         <Modal showModal={showModal} setModal={setModal} />
                 </>

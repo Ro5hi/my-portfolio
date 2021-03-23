@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
+import ProjectsHeader from './ProjectsHeader'
 
 export default class Projects extends Component {
     render() {
         return (
             <div className="text-s text-white overflow-auto">
+                <ProjectsHeader />
                 <section class="justify-center">
                     <p class="tracking-widest">
                         SubTrack

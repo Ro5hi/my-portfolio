@@ -1,16 +1,18 @@
+import React, { Suspense } from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import Home from './components/Home'
-import Modal from './components/Modal'
 import './index.css';
+
+const Home = React.lazy(() => import('./components/Home'))
 
 function App() {
   return (
+    <Suspense fallback={"..."} >
     <BrowserRouter>
       <Switch>
         <Route component={Home} path='/' exact />
-        <Route component={Modal} path='/about' exact />
       </Switch>
     </BrowserRouter>
+    </Suspense>
   )
 }
 
