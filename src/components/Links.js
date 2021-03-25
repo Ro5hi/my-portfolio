@@ -16,14 +16,12 @@ import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 
         return (
-            <div className="text-s h-32 w-32 text-white font-light">
-                <p class="tracking-normal animate-bounce">
+            <div className="justify-between text-s h-32 w-32 text-white font-light">
                 <a href='https://www.linkedin.com/in/shirlend'>{linkedin}</a>{"      "}
                 <a href ='https://www.lendeta.medium.com'> {medium} </a>{"      "}
                 <a href ='https://www.github.com/Ro5hi'> {github} </a>{"      "}
                 <a href ='https://www.youtube.com/channel/UC_0nik4oj1T1Q160XVr0ZlA'> {youtube} </a>{"      "}
                 <a href ='https://docs.google.com/document/d/1oVxYKuRnUHrJBUHrv1-L5Cb8D9v4PpARODo32hcSc8w/edit?usp=sharing'>{resume}</a>{"      "}
-                </p>
             </div>
         )
     }
