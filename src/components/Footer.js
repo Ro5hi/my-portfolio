@@ -4,7 +4,7 @@ import Links from './Links'
 export default class Footer extends Component {
     render() {
         return (
-            <div className="flex justify-center items-center h-16">
+            <div className="bg-black flex justify-center items-center h-16">
                 <p class="tracking-tighter text-center text-lg text-white">
                 © 2021 Shirlen Detablan
                 </p>

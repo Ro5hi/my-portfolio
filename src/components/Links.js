@@ -16,7 +16,7 @@ import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 
         return (
-            <div className="justify-between text-s h-full w-full text-white font-light">
+            <div className="justify-between bg-black text-s h-full w-full text-white font-light">
                 <a href='https://www.linkedin.com/in/shirlend'>{linkedin}</a>{"      "}
                 <a href ='https://www.lendeta.medium.com'> {medium} </a>{"      "}
                 <a href ='https://www.github.com/Ro5hi'> {github} </a>{"      "}
