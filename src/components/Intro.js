@@ -21,7 +21,12 @@ import Modal from './Modal.js'
                         I’m a full stack engineer<br />
                         based in Colorado.
                         </p>
-                        <button onClick={openModal}>...</button>
+                        <button 
+                            className="text-4xl 
+                            hover:text-yellow-400"
+                            onClick={openModal}>
+                                . . .
+                        </button>
                     </div>
                         <Modal showModal={showModal} setModal={setModal} />
                 </>

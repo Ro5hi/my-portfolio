@@ -13,7 +13,7 @@ const Modal = ({ showModal, setModal }) => {
 
     const animation = useSpring({
         config: {
-          duration: 600
+          duration: 500
         },
         opacity: showModal ? 1 : 0,
         transform: showModal ? `translateY(0%)` : `translateY(-100%)`

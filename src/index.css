@@ -16,9 +16,6 @@ img{
   max-height: 400px;
 }
 
-button { 
+* button { 
   padding: 0;
-  outline: none;
-  text-decoration: none;
-  border: none;
 }
