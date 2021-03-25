@@ -8,15 +8,15 @@ import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 
     const Links = () => {
 
-        const linkedin = <FontAwesomeIcon icon={faLinkedin} size="lg" />
-        const github = <FontAwesomeIcon icon={faGithub} size="lg" />
-        const medium = <FontAwesomeIcon icon={faMedium} size="lg" />
-        const resume = <FontAwesomeIcon icon={faFile} size="lg" />
-        const youtube = <FontAwesomeIcon icon={faYoutube} size="lg" />
+        const linkedin = <FontAwesomeIcon icon={faLinkedin} size="2x" />
+        const github = <FontAwesomeIcon icon={faGithub} size="2x" />
+        const medium = <FontAwesomeIcon icon={faMedium} size="2x" />
+        const resume = <FontAwesomeIcon icon={faFile} size="2x" />
+        const youtube = <FontAwesomeIcon icon={faYoutube} size="2x" />
 
 
         return (
-            <div className="justify-between text-s h-32 w-32 text-white font-light">
+            <div className="justify-between text-s h-full w-full text-white font-light">
                 <a href='https://www.linkedin.com/in/shirlend'>{linkedin}</a>{"      "}
                 <a href ='https://www.lendeta.medium.com'> {medium} </a>{"      "}
                 <a href ='https://www.github.com/Ro5hi'> {github} </a>{"      "}
