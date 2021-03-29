@@ -9,9 +9,10 @@ export default class Projects extends Component {
                 <br/><br/><br/>
                 <div className="grid center-content h-full">
                     <section class="justify-center rounded mb-20">
-                        <p className="mb-2"><a href="https://mills-electrical.netlify.app/">Demo</a></p>
                         <img class="mx-auto" src="https://imgur.com/VGGiVqP.jpg" alt="mills"></img><br />
-                        <h2 className="text-2xl font-bold text-strong mb-2">Mills Electrical Services</h2>
+                        <h2 className="text-2xl font-bold text-strong mb-2 text-2xl hover:text-yellow-400">
+                            <a href="https://mills-electrical.netlify.app/">Mills Electrical Services</a>
+                        </h2>
                             <p className="mb-2">Official website for an electrician based in Indiana.</p><br />
                         <img class="mx-auto" src="https://camo.githubusercontent.com/b40ee185b384c9b81545b452baf20f41b4555eee4556656f4d44fa7f27ef34aa/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f323430302f312a62456837745a726536707559454e6f634133757272512e706e67" alt="go local"></img><br />
                             <h2 className="text-2xl font-bold mb-2">Go Local</h2>
