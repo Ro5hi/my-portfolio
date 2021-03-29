@@ -22,10 +22,10 @@ import Modal from './Modal.js'
                         based in Colorado.
                         </p>
                         <button 
-                            className="text-4xl 
+                            className="text-2xl 
                             hover:text-yellow-400"
                             onClick={openModal}>
-                                . . .
+                            Read more
                         </button>
                     </div>
                         <Modal showModal={showModal} setModal={setModal} />

@@ -8,7 +8,8 @@ export default class Projects extends Component {
                 <ProjectsHeader />
                 <br/><br/><br/>
                 <div className="grid center-content h-full">
-                    <section class="justify-center rounded mb-20 shadow">
+                    <section class="justify-center rounded mb-20">
+                        <p className="mb-2"><a href="https://mills-electrical.netlify.app/">Demo</a></p>
                         <img class="mx-auto" src="https://imgur.com/VGGiVqP.jpg" alt="mills"></img><br />
                         <h2 className="text-2xl font-bold text-strong mb-2">Mills Electrical Services</h2>
                             <p className="mb-2">Official website for an electrician based in Indiana.</p><br />
