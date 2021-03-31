@@ -10,12 +10,11 @@ const Projects = () => {
     const ReactJS = <FontAwesomeIcon icon={faReact} size="lg" />
     const JavaScript = <FontAwesomeIcon icon={faJsSquare} size="lg" />
 
-
     return (
         <div className="overflow-auto">
             <ProjectsHeader />
             <br/><br/><br/>
-            <div className="justify-center grid grid-rows-2 grid-flow-col gap-4">
+            <div className="justify-center grid grid-rows-2 grid-flow-col gap-12">
                 <ProjectCard 
                     img="https://imgur.com/VGGiVqP.jpg"
                     title="Mills Electrical Services"
