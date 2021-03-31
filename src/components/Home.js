@@ -4,7 +4,7 @@ import Projects from './Projects'
 
     const Home = () => {
         return (
-            <div className="flex-initial flex-col p-8 sm text-white text-center font-light ">
+            <div className="flex-initial flex-col p-8 font-light">
                 <Intro />
                     <br/><br/><br/>
                         <Projects />
