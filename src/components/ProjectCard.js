@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ProjectCard ({img, title, body, tech}) {
+function ProjectCard ({img, title, body, demo, tech}) {
 
     // const img1 = "https://imgur.com/VGGiVqP.jpg"
     // const img2 = "https://camo.githubusercontent.com/b40ee185b384c9b81545b452baf20f41b4555eee4556656f4d44fa7f27ef34aa/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f323430302f312a62456837745a726536707559454e6f634133757272512e706e67"
@@ -37,7 +37,7 @@ function ProjectCard ({img, title, body, tech}) {
                 </div>
                 <div className="inline-block text-white bg-gray rounded-none px-3 py-1 text-sm font-semibold mr-2">
                     <button>    
-                        <a href="https://mills-electrical.netlify.app/">Demo</a>
+                        <a href={demo}>Demo</a>
                     </button>
                 </div>
             </div>
