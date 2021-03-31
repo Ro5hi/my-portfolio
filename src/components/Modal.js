@@ -41,7 +41,7 @@ const Modal = ({ showModal, setModal }) => {
                 <div className="bg-black sticky justify-center items-center" onClick={closeModal} ref={modalRef}>
                     <animated.div style={animation}>
                     <div className="relative " showModal={showModal}>
-                        <div className="tracking-widest text-left text-s text-white">
+                        <div className="select-none tracking-widest text-left text-s text-white">
                             <p>
                             A business graduate who transitioned into a career in<br/>
                             Software Engineering after studying at Flatiron School.<br/>

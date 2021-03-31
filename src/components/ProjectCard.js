@@ -35,7 +35,7 @@ function ProjectCard ({img, title, body, demo, tech}) {
                 <div className="inline-block text-white bg-gray rounded-none px-1 py-1 text-sm font-semibold mr-2">
                     {tech}
                 </div>
-                <div className="inline-block text-white bg-gray rounded-full px-3 py-1 text-sm font-semibold mr-2">
+                <div className="cursor-pointer inline-block text-white bg-gray rounded-full px-3 py-1 text-sm font-semibold mr-2">
                     <button>    
                         <a href={demo}>Demo</a>
                     </button>
