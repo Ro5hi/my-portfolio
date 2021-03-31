@@ -23,7 +23,7 @@ function ProjectCard ({img, title, body, demo, tech}) {
     // const d4 = ""
 
     return (
-        <div className="max-w-sm rounded overflow-hidden bg-white">
+        <div className="max-w-sm rounded overflow-hidden">
             <div className="bg-white align-center">
             <img src={img} alt="img"></img>
             </div>
@@ -32,10 +32,10 @@ function ProjectCard ({img, title, body, demo, tech}) {
                 <div className="bg-blue-500 text-s font-thin text-white tracking-wide">
                     {body}
                 </div>
-                <div className="inline-block text-white bg-gray rounded-full px-1 py-1 text-sm font-semibold mr-2">
+                <div className="inline-block text-white bg-gray rounded-none px-1 py-1 text-sm font-semibold mr-2">
                     {tech}
                 </div>
-                <div className="inline-block text-white bg-gray rounded-none px-3 py-1 text-sm font-semibold mr-2">
+                <div className="inline-block text-white bg-gray rounded-full px-3 py-1 text-sm font-semibold mr-2">
                     <button>    
                         <a href={demo}>Demo</a>
                     </button>
