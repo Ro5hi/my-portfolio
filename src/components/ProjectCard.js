@@ -23,21 +23,23 @@ function ProjectCard ({img, title, body, tech}) {
     // const d4 = ""
 
     return (
-        <div className="h-3/6 w-6/12 bg-white">
-            <div className="align-center max-w-sm rounded overflow-hidden">
+        <div className="max-w-sm rounded overflow-hidden bg-white">
+            <div className="bg-white align-center">
             <img src={img} alt="img"></img>
             </div>
-            <div className="bg-white px-6 py-4 align-top">
+            <div className="bg-blue-500 font-bold text-white px-6 py-4 align-top">
                 {title}
-                <ul>
-                    <p class="text-s tracking-wide">{body}</p>
-                    <p class="tracking-wide"><strong>Built with:</strong> {tech}</p>
-                    <div className="inline-block bg-gray rounded-full px-3 py-1 text-sm font-semibold mr-2">
-                        <button>    
-                            <a href="https://mills-electrical.netlify.app/">Demo</a>
-                        </button>
-                    </div>
-                </ul>
+                <div className="bg-blue-500 text-s font-thin text-white tracking-wide">
+                    {body}
+                </div>
+                <div className="inline-block text-white bg-gray rounded-full px-1 py-1 text-sm font-semibold mr-2">
+                    {tech}
+                </div>
+                <div className="inline-block text-white bg-gray rounded-none px-3 py-1 text-sm font-semibold mr-2">
+                    <button>    
+                        <a href="https://mills-electrical.netlify.app/">Demo</a>
+                    </button>
+                </div>
             </div>
         </div>
     )
