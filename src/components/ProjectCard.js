@@ -23,11 +23,11 @@ function ProjectCard ({img, title, body, demo, tech}) {
     // const d4 = ""
 
     return (
-        <div className="max-w-sm rounded overflow-hidden">
+        <div className="max-w-sm rounded overflow-hidden md:flex-wrap sm:flex-wrap xs:flex-wrap">
             <div className="bg-white align-center">
             <img src={img} alt="img"></img>
             </div>
-            <div className="bg-blue-500 font-bold text-white px-6 py-4 align-top">
+            <div className="bg-blue-500 font-bold text-white px-6 py-4 align-top xl:text-lg lg:text-xs md:text-xs sm:text-xs xs:text-xs">
                 {title}
                 <div className="bg-blue-500 text-s font-thin text-white tracking-wide">
                     {body}

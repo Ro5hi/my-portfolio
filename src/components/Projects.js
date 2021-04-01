@@ -14,7 +14,7 @@ const Projects = () => {
         <div className="overflow-auto">
             <ProjectsHeader />
             <br/><br/><br/>
-            <div className="justify-center grid grid-rows-2 grid-flow-col gap-12 select-none">
+            <div className="justify-center h-full grid grid-rows-2 gap-6 select-none xl:grid grid-rows-2 gap-4 lg:grid-rows-2 md:grid-rows-1 gap-4 sm:grid-rows-1 xs:grid-rows-1 ">
                 <ProjectCard 
                     img="https://imgur.com/VGGiVqP.jpg"
                     title="Mills Electrical Services"
