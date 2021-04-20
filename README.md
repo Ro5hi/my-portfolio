@@ -1,8 +1,8 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/799b0334-0dc0-4f95-bc9c-dab9ce4517da/deploy-status)](https://app.netlify.com/sites/shirlen-d/deploys)
+
 # My-Portfolio
 
-## 3/23/2021
-
-Deployed onto Netlify! Still a work-in-progress and adding more to my portfolio site as I progress.
+Deployed onto Netlify!
 
 Portfolio site structured with the following:
 
@@ -12,6 +12,8 @@ Portfolio site structured with the following:
 - React Spring
 - Netlify
 
+Domain bought on Name.com 
+
 ## View site below:
 
-https://shirlen-d.netlify.app/
+https://lendeta.live.com
