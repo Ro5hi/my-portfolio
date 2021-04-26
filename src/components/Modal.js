@@ -43,12 +43,13 @@ const Modal = ({ showModal, setModal }) => {
                     <div className="relative " showModal={showModal}>
                         <div className="select-none tracking-widest text-left text-s text-white">
                             <p>
-                            A business graduate who transitioned into a career in<br/>
+                            I am a business graduate who transitioned into a career in<br/>
                             Software Engineering after studying at Flatiron School.<br/>
                             Adaptable, curious, and ready to learn.<br/>
                             <br/>
-                            Enjoys bringing creative concepts to life with front-end development.<br/>
-                            Does photography and Blender3D on the weekends.<br/>
+                            I enjoy bringing creative concepts to life with front-end development.<br/>
+                            As well as, the logical aspect in back-end development.<br/>
+                            You can find me doing photography and Blender3D on the weekends.<br/>
                             </p>
                         </div>
                         <div className="fixed cursor-pointer p-0 items-end text-2xl"

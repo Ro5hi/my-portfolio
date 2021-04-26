@@ -9,11 +9,10 @@ Portfolio site structured with the following:
 - React.js
 - Tailwind CSS
 - FontAwesome
-- React Spring
 - Netlify
 
 Domain bought on Name.com 
 
-## View site below:
+## View my portfolio site below:
 
 https://lendeta.live.com
