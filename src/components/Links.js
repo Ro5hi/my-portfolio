@@ -23,7 +23,7 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons'
                 <a href ='https://www.github.com/Ro5hi'> {github} </a>{"      "}
                 <a href ='https://www.youtube.com/channel/UC_0nik4oj1T1Q160XVr0ZlA'> {youtube} </a>{"      "}
                 <a href ='https://www.instagram.com/_sceptral_'> {ig} </a>{"      "}
-                <a href ='https://drive.google.com/file/d/1nCBaO0MBkZ_Mpoun2uM6DkOTDeDTJkmm/view?usp=sharing'>{resume}</a>{"      "}
+                <a href ='https://drive.google.com/file/d/14yvjn_PU3nb5wm9pnf-40O1VJgMqkHb7/view?usp=sharing'>{resume}</a>{"      "}
             </div>
         )
     }
