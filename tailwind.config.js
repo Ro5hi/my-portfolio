@@ -11,6 +11,7 @@ module.exports = {
         xl: '1440px',
       }
     },
+    gridAutoColumns: ['hover', 'focus'],
   },
   fontFamily: {
     Roboto: ['Roboto', 'sans-serif'],

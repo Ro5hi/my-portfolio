@@ -16,7 +16,7 @@ function ProjectCard ({img, title, body, demo, tech}) {
                     {tech}
                 </div>
                 <div className="cursor-pointer inline-block text-white bg-gray rounded-full px-3 py-1 text-sm font-semibold mr-2">
-                    <button>    
+                    <button className="hover:text-yellow-400">    
                         <a href={demo}>Demo</a>
                     </button>
                 </div>
