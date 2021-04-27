@@ -21,7 +21,7 @@ const Projects = () => {
                     img="https://imgur.com/dxf5H0X.jpg"
                     title="LiliBot"
                     body="A Discord server bot built for VTuber Lilia Agares. Built with Python and running in a Flask web-app. Utilized threading to run in multiple operations. Now running 24/7 using UptimeRobot."
-                    demo=""
+                    demo="https://discord.gg/AFQJHFjJk4"
                     tech= {Python}
                 />
                 <ProjectCard 
