@@ -13,6 +13,12 @@ Portfolio site structured with the following:
 
 Domain bought on Name.com 
 
+# To-do
+
+- Navigation 
+- Smooth scroll 
+- Improved styling
+
 ## View my portfolio site below:
 
 https://lendeta.live.com
