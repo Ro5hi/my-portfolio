@@ -2,12 +2,14 @@ import ProjectsHeader from './ProjectsHeader'
 import ProjectCard from './ProjectCard'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact } from '@fortawesome/free-brands-svg-icons'
-import { faJsSquare} from '@fortawesome/free-brands-svg-icons'
+import { faJsSquare } from '@fortawesome/free-brands-svg-icons'
+import { faPython } from '@fortawesome/free-brands-svg-icons'
 
 
 const Projects = () => {
 
     const ReactJS = <FontAwesomeIcon icon={faReact} size="lg" />
+    const Python = <FontAwesomeIcon icon={faPython} size="lg" />
     const JavaScript = <FontAwesomeIcon icon={faJsSquare} size="lg" />
 
     return (
@@ -15,6 +17,13 @@ const Projects = () => {
             <ProjectsHeader />
             <br/><br/><br/>
             <div className="justify-center h-full grid grid-rows-2 gap-6 select-none xl:grid grid-rows-2 gap-4 lg:grid-rows-2 md:grid-rows-1 gap-4 sm:grid-rows-1 xs:grid-rows-1 ">
+                <ProjectCard 
+                    img="https://imgur.com/dxf5H0X.jpg"
+                    title="LiliBot"
+                    body="A Discord server bot built for VTuber Lilia Agares. Built with Python and running in a Flask web-app. Utilized threading to run in multiple operations. Now running 24/7 using UptimeRobot."
+                    demo=""
+                    tech= {Python}
+                />
                 <ProjectCard 
                     img="https://imgur.com/VGGiVqP.jpg"
                     title="Mills Electrical Services"
