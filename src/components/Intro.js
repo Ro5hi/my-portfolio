@@ -15,7 +15,7 @@ import Modal from './Modal.js'
                 <>
                 <IntroHeader />
                 <br/><br/>
-                    <div className="select-none text-left tracking-widest text-2xl text-white">
+                    <div className="relative inset-y-0 left-6 select-none text-left tracking-widest text-2xl text-white">
                         <p>
                         My name is <strong>Shirlen</strong>!<br />
                         I’m a full stack engineer<br />
