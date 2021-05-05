@@ -18,6 +18,8 @@ Domain bought on Name.com
 - Navigation 
 - Smooth scroll 
 - Improved styling
+- Menu
+- Longer "about me"
 
 ## View my portfolio site below:
 
