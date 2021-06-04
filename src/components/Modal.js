@@ -51,7 +51,7 @@ const Modal = ({ showModal, setModal }) => {
                             You can find me doing photography and Blender3D on the weekends.<br/>
                             </p>
                         </div>
-                        <div className="fixed cursor-pointer p-0 items-end text-2xl"
+                        <div className="fixed border-none outline-none cursor-pointer p-0 items-end text-2xl"
                             aria-label='Exit'
                             onClick={() => setModal(prev => !prev)}
                         />
