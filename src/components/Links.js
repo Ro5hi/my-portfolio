@@ -16,7 +16,7 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons'
         const ig = <FontAwesomeIcon icon={faInstagram} size="2x" />
 
         return (
-            <div className="bg-black text-s h-full w-full text-white font-light">
+            <div className="text-center mx-auto text-s h-full w-full text-white font-light">
                 <a href='https://www.linkedin.com/in/shirlend'>{linkedin}</a>{"      "}
                 <a href ='https://www.lendeta.medium.com'> {medium} </a>{"      "}
                 <a href ='https://www.github.com/Ro5hi'> {github} </a>{"      "}

@@ -12,9 +12,8 @@ import Modal from './Modal.js'
         }
 
         return (
-                <>
+                <div className="pb-12">
                 <IntroHeader />
-                <br/><br/>
                     <div className="relative inset-y-0 left-8 select-none text-left tracking-widest text-2xl text-white">
                         <p>
                         My name is <strong>Shirlen</strong>!<br />
@@ -29,7 +28,7 @@ import Modal from './Modal.js'
                         </button>
                     </div>
                         <Modal showModal={showModal} setModal={setModal} />
-                </>
+                </div>
             )
         }
 
