@@ -13,9 +13,8 @@ const Projects = () => {
     const JavaScript = <FontAwesomeIcon icon={faJsSquare} size="lg" />
 
     return (
-        <div className="overflow-auto">
-            <ProjectsHeader />
-            <br/><br/><br/>
+        <div className="mx-auto overflow-auto">
+            <ProjectsHeader/>
             <div className="justify-center h-full grid grid-rows-2 gap-6 select-none xl:grid grid-rows-2 gap-4 lg:grid-rows-2 md:grid-rows-1 gap-4 sm:grid-rows-1 xs:grid-rows-1 ">
                 <ProjectCard 
                     img="https://imgur.com/dxf5H0X.jpg"

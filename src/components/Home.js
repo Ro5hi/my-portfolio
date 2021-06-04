@@ -4,13 +4,13 @@ import Projects from './Projects'
 
     const Home = () => {
         return (
-            <div className="flex-initial flex-col p-8 font-light ">
-                <Intro />
-                    <br/><br/><br/>
-                        <Projects />
-                    <br/><br/><br/>
-                <div className="sm text-white text-center font-light">
+            <div className="flex-initial flex-col p-8 font-light">
+                <div className="">
+                    <Intro />
+                    <Projects />
+                <div className="pt-12 pb-4">
                     <Footer />
+                </div>
                 </div>
             </div>
         )
