@@ -15,7 +15,6 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons'
         const youtube = <FontAwesomeIcon icon={faYoutube} size="2x" />
         const ig = <FontAwesomeIcon icon={faInstagram} size="2x" />
 
-
         return (
             <div className="bg-black text-s h-full w-full text-white font-light">
                 <a href='https://www.linkedin.com/in/shirlend'>{linkedin}</a>{"      "}

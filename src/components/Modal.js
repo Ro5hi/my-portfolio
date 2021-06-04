@@ -41,14 +41,13 @@ const Modal = ({ showModal, setModal }) => {
                 <div className="bg-black sticky justify-center items-center" onClick={closeModal} ref={modalRef}>
                     <animated.div style={animation}>
                     <div className="relative " showModal={showModal}>
-                        <div className="relative inset-y-0 left-8 select-none tracking-widest text-left text-s text-white">
+                        <div className="relative pt-4 inset-y-0 left-8 select-none tracking-widest text-left text-s text-white">
                             <p>
                             I am a business graduate who transitioned into a career in<br/>
                             Software Engineering after studying at Flatiron School.<br/>
-                            Adaptable, curious, and ready to learn.<br/>
+                            Adaptable, curious, and committed to learn new concepts.<br/>
                             <br/>
                             I enjoy bringing creative concepts to life with front-end development.<br/>
-                            As well as, the logical aspect in back-end development.<br/>
                             You can find me doing photography and Blender3D on the weekends.<br/>
                             </p>
                         </div>

@@ -22,7 +22,7 @@ import Modal from './Modal.js'
                         based in Colorado.
                         </p>
                         <button 
-                            className="text-2xl 
+                            className="text-2xl
                             hover:text-yellow-400"
                             onClick={openModal}>
                             About Me
