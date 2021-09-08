@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutMe from '../index'
+import AboutMe from '../components/about/AboutMe'
 
 export default function Home() {
     return (
