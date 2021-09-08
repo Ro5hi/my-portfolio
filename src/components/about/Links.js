@@ -18,7 +18,7 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons'
         return (
             <div className="text-left flex mx-auto text-xs h-1/2 pr-12 w-full text-white font-light">
                 <div className="">
-                    <img src="https://opendoodles.s3-us-west-1.amazonaws.com/coffee.gif" alt="img" />
+                    <img className="rounded-lg" src="https://opendoodles.s3-us-west-1.amazonaws.com/coffee.gif" alt="img" />
                 </div>
                 <div className="p-8 pt-16 pb-4 tracking-wide">
                     <a href='https://www.linkedin.com/in/shirlend'>{linkedin}</a><br/>
