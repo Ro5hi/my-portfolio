@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Info() {
     return (
-        <div className="flex text-white h-16 w-full bg-black">
-            <p className="text-white tracking-wide">2021</p>
+        <div className="flex text-white bg-black">
+            <p className="text-white tracking-wide bg-black">Shirlen Detablan {"     "} 2021</p>
         </div>
     )
 }
