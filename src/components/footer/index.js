@@ -5,7 +5,7 @@ import Message from './Message'
 
 export default function Footer() {
     return (
-        <div className="flex mx-auto bg-black w-full h-5/6 p-12">
+        <div className="w-full bg-black justify-items-center place-items-center select-none flex justify-center items-center h-16">
             <Info />
             <Message />
             {/* <Links /> */}
