@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Intro() {
     return (
-        <div className="bg-gray h-screen flex flex-col justify-center items-center">
-            <h1 className="lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-white mb-14">
-                Hello, my name is Shirlen.
+        <div className="bg-gray h-1/2 flex justify-left items-center">
+            <h1 className="lg:text-5xl md:text-4xl sm:text-3xl text-4xl text-white">
+                HELLO, MY NAME IS SHIRLEN.
             </h1>
         </div>
     )

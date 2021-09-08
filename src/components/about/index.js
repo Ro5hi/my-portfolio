@@ -6,8 +6,8 @@ import Intro from './Intro'
 export default function AboutMe() {
     return (
         <>
-            <About />
             <Intro />
+            <About />
             {/* <Links /> */}
         </>
     )
