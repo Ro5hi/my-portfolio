@@ -1,5 +1,6 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
+import { ProjectsData } from './data'
 
 export default function FinishedProjects() {
     return (
