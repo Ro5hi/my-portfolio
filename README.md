@@ -9,7 +9,7 @@ Portfolio site structured with the following:
 - React.js
 - Tailwind CSS
 - FontAwesome
-- Netlify
+- SSL through Netlify
 
 Domain bought on Name.com 
 
@@ -19,8 +19,7 @@ Domain bought on Name.com
 - Smooth scroll 
 - Improved styling
 - Menu
-- Longer "about me"
 
-## View my portfolio site below:
+## View my live portfolio site below:
 
 https://lendeta.live.com
