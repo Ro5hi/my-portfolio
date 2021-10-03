@@ -1,7 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import data from './data';
 
 const Scroll = () => {
+
+const [current, setCurrent] = useState(0);
+const length = slides.length;
 
     return (
         <>
