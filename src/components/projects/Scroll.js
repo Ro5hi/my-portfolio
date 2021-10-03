@@ -1,21 +1,14 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import data from './ProjectsData';
 import { faCaretSquareLeft, faCaretSquareRight } from '@fortawesome/free-regular-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-var LeftArrow = <FontAwesomeIcon icon={faCaretSquareLeft} />;
-var RightArrow = <FontAwesomeIcon icon={faCaretSquareRight} />;
 
 const Scroll = ({ slides }) => {
 
 const [current, setCurrent] = useState(0);
 const length = slides.length;
 const prevSlide = () => {
-    if (current === 0) {
-        setCurrent(length - 1);
-    } else {
-        setCurrent(current - 1);
-    }
+    setCurrent(current === 0 ? length -1 : current -1);
 }
 const nextSlide = () => {
     setCurrent(current === length -1 ? 0 : current + 1);
@@ -27,8 +20,8 @@ if(!Array.isArray(slides) || slides.length === 0) {
 
     return (
         <section className="slider">
-            <LeftArrow className="absolute pt-1/2 color-black cursor-pointer select-none" onClick={prevSlide} />
-            <RightArrow className="absolute pt-1/2 color-black cursor-pointer select-none" onClick={nextSlide} />
+            <faCaretSquareLeft className="absolute pt-1/2 color-black cursor-pointer select-none" onClick={prevSlide} />
+            <faCaretSquareRight className="absolute pt-1/2 color-black cursor-pointer select-none" onClick={nextSlide} />
             {data.map((scroll, index) => {
                 return (
                     <div className="flex justify-center drop-shadow-lg">
