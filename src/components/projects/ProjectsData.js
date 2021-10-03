@@ -11,12 +11,12 @@ var Flask = <img className="bg-transparent" width="75" height="75" alt="tech"  s
 var Postgresql = <img className="bg-transparent" width="75" height="75" alt="tech"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
 var SQL = <img className="bg-transparent" width="75" height="75" alt="tech"  src="https://img.icons8.com/fluency/48/000000/database.png" />
 var Sass = <img className="bg-transparent" width="75" height="75" alt="tech"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
-var Tailwindcss = <img className="bg-transparent" width="75" height="75" alt="tech"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" />
+// var Tailwindcss = <img className="bg-transparent" width="75" height="75" alt="tech"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" />
 var CSharp = <img className="bg-transparent" width="75" height="75" alt="tech"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
-var Figma = <img className="bg-transparent" width="75" height="75" alt="tech"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+// var Figma = <img className="bg-transparent" width="75" height="75" alt="tech"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
 var Unity = <img className="bg-transparent" width="75" height="75" alt="tech"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" />
 var CSS = <img className="bg-transparent" width="75" height="75" alt="tech"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-var Git = <img className="bg-transparent" width="75" height="75" alt="tech" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+// var Git = <img className="bg-transparent" width="75" height="75" alt="tech" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
 
 const ProjectsData = 
 [

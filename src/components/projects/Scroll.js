@@ -10,11 +10,25 @@ const Scroll = ({ slides }) => {
 
 const [current, setCurrent] = useState(0);
 const length = slides.length;
+const prevSlide = () => {
+    if (current === 0) {
+        setCurrent(length - 1);
+    } else {
+        setCurrent(current - 1);
+    }
+}
+const nextSlide = () => {
+    setCurrent(current === length -1 ? 0 : current + 1);
+}
+
+if(!Array.isArray(slides) || slides.length === 0) {
+    return null
+}
 
     return (
         <section className="slider">
-            {/* <LeftArrow onClick={prevSlide} />
-            <RightArrow onClick={nextSlide} /> */}
+            <LeftArrow className="absolute pt-1/2 color-black cursor-pointer select-none" onClick={prevSlide} />
+            <RightArrow className="absolute pt-1/2 color-black cursor-pointer select-none" onClick={nextSlide} />
             {data.map((scroll, index) => {
                 return (
                     <div className="flex justify-center drop-shadow-lg">
