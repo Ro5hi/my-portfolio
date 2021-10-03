@@ -1,13 +1,20 @@
 import React, {useState} from 'react';
-import data from './data';
+import data from './ProjectsData';
+import { faCaretSquareLeft, faCaretSquareRight } from '@fortawesome/free-regular-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const Scroll = () => {
+var LeftArrow = <FontAwesomeIcon icon={faCaretSquareLeft} />;
+var RightArrow = <FontAwesomeIcon icon={faCaretSquareRight} />;
+
+const Scroll = ({ slides }) => {
 
 const [current, setCurrent] = useState(0);
 const length = slides.length;
 
     return (
-        <>
+        <section className="slider">
+            {/* <LeftArrow onClick={prevSlide} />
+            <RightArrow onClick={nextSlide} /> */}
             {data.map((scroll, index) => {
                 return (
                     <div className="flex justify-center drop-shadow-lg">
@@ -26,7 +33,7 @@ const length = slides.length;
                     </div>
                 )
             })}
-        </>
+        </section>
     )
 }
 
