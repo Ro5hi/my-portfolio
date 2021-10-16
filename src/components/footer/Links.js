@@ -3,7 +3,7 @@ import React from 'react'
 export default function Links() {
     return (
         <div className="links">
-            <div className="p-8 pt-16 pb-4 tracking-wide">
+            <div className="mx-auto p-8 pt-16 pb-4 tracking-wide">
                 <a href='https://www.linkedin.com/in/shirlend'>{linkedin}</a><br/>
                 <a href ='https://www.lendeta.medium.com'> {medium} </a><br/>
                 <a href ='https://www.github.com/Ro5hi'> {github} </a><br/>
