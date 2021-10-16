@@ -21,35 +21,37 @@ const Scroll = ({ slides }) => {
     }
 
     return (
-        <section className="slider">
-            <FontAwesomeIcon icon={faCaretSquareLeft} size="lg" className="absolute color-white cursor-pointer select-none" onClick={prevSlide} />
-            <FontAwesomeIcon icon={faCaretSquareRight} size="lg" className="absolute color-white cursor-pointer select-none" onClick={nextSlide} />
-            {ProjectsData.map((slide, index) => {
-                return (
-                    <div className={index === current ? 'active slide' : 'slide'} key={index}>
+        <div className="mx-auto color-white">
+            <div className="flex justify-center color-white cursor-pointer select-none">
+                <FontAwesomeIcon icon={faCaretSquareLeft} size="lg" className="object-left" onClick={prevSlide} />
+                <FontAwesomeIcon icon={faCaretSquareRight} size="lg" className="object-right" onClick={nextSlide} />
+                {ProjectsData.map((slide, index) => {
+                    return (
                         <div className={index === current ? 'active slide' : 'slide'} key={index}>
-                            {index === current && (
-                                <div className="flex justify-center drop-shadow-lg">
-                                    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                                        <div class="pt-6 px-7 py-4 bg-white">
-                                            <img className="bg-transparent" src={slide.projectImage} alt='projecticon' key={index} />
-                                            <div class="font-bold text-2xl pb-2 pt-4 bg-transparent text-blue-400 mb-2">{slide.projectName}</div>
-                                                <p class="text-gray-700 text-base bg-transparent">
-                                                    {slide.projectDescription}
-                                                </p>
+                            <div className={index === current ? 'active slide' : 'slide'} key={index}>
+                                {index === current && (
+                                    <div className="flex justify-center drop-shadow-lg">
+                                        <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                                            <div class="pt-6 px-7 py-4 bg-white">
+                                                <img className="bg-transparent" src={slide.projectImage} alt='projecticon' key={index} />
+                                                <div class="font-bold text-2xl pb-2 pt-4 bg-transparent text-blue-400 mb-2">{slide.projectName}</div>
+                                                    <p class="text-gray-700 text-base bg-transparent">
+                                                        {slide.projectDescription}
+                                                    </p>
+                                            </div>
+                                            <div class="px-6 pt-4 pb-2 bg-white">
+                                                {slide.projectTech}
+                                            </div>        
                                         </div>
-                                        <div class="px-6 pt-4 pb-2 bg-white">
-                                            {slide.projectTech}
-                                        </div>        
                                     </div>
-                                </div>
-                            )}
-                            
+                                )}
+                                
+                            </div>
                         </div>
-                    </div>
-                )
-            })}
-        </section>
+                    )
+                })}
+            </div>
+        </div>
     )
 }
 
