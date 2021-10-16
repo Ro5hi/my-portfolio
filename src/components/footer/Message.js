@@ -7,7 +7,7 @@ export default function Message() {
                 <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=slen.detablan@gmail.com" className="bg-transparent" target="_blank" rel="noreferrer" >Let's Work Together!</a>
             </div>
             <div className="form-input">
-                // add contact message input pop-up here
+               
             </div>
         </div>
     )
