@@ -21,10 +21,12 @@ const Scroll = ({ slides }) => {
     }
 
     return (
-        <div className="mx-auto color-white">
-            <div className="flex justify-center color-white cursor-pointer select-none">
-                <FontAwesomeIcon icon={faCaretSquareLeft} size="lg" className="object-left" onClick={prevSlide} />
-                <FontAwesomeIcon icon={faCaretSquareRight} size="lg" className="object-right" onClick={nextSlide} />
+        <div className="mx-auto">
+            <div className="flex justify-center space-x-96">
+                    <FontAwesomeIcon icon={faCaretSquareLeft} size="lg" className="object-left" onClick={prevSlide} />
+                    <FontAwesomeIcon icon={faCaretSquareRight} size="lg" className="object-right" onClick={nextSlide} />
+            </div>
+            <div className="flex justify-center color-white select-none">
                 {ProjectsData.map((slide, index) => {
                     return (
                         <div className={index === current ? 'active slide' : 'slide'} key={index}>
@@ -45,7 +47,6 @@ const Scroll = ({ slides }) => {
                                         </div>
                                     </div>
                                 )}
-                                
                             </div>
                         </div>
                     )
