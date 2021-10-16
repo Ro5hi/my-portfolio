@@ -18,7 +18,7 @@ var Unity = <img className="bg-transparent" width="75" height="75" alt="tech"  s
 var CSS = <img className="bg-transparent" width="75" height="75" alt="tech"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
 // var Git = <img className="bg-transparent" width="75" height="75" alt="tech" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
 
-const ProjectsData = 
+export const ProjectsData = 
 [
     {
         projectName: 'Lilibot',
@@ -69,5 +69,3 @@ const ProjectsData =
         projectTech: <div className="bg-transparent">{Unity} {CSharp}</div>,  
     },
 ]
-
-export default ProjectsData;
