@@ -11,6 +11,8 @@ Portfolio site structured with the following:
 - Netlify SSL
 - Name.com domain
 
+Icons from FontAwesome!
+
 # Why React.js?
 
 React is a Javascript framework that allows developers like me to build reusable components.
